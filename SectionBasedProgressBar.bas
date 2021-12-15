@@ -5,7 +5,7 @@ Sub AddProgressBar()
         With ActivePresentation
               n = 0
               j = 0 'number of active slides
-              bar_height = 40 'height of the progress bar
+              bar_height = 15 'height of the progress bar
               vert_loc = 0 ' 0 for top, .PageSetup.SlideHeight - bar_height for bottom
               num_sects = .SectionProperties.Count 'total number of sections in the ppt
               one = .Slides(12).sectionIndex
