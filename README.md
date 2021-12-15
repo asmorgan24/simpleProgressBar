@@ -18,4 +18,5 @@ In the displayed page of Microsoft Powerpoint, go to:
 ### How remove the progress bar?
 **Tools > Macro > Macros**, then select *RemoveProcessBar* and press *Execute*
 
-
+## Notes
+Once you hit run, the macro will add a progress bar to your powerpoint. If slides change order or are added, you will need to once again run the macro. For this reason, I suggest you run the macro once you are (mostly) done with your presentation. Note that hidden slides will be skipped. Also note that I suggest you save your presentation as a "Macro-enabled Powerpoint Presentations" so that the code for the macro is saved and you can return/edit the code later as necessary.  
